@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    height: 40px;
+    /* filter: invert(1);    */
+
+}
+#navbar{
+    padding: 10px 3px;
+    font-family: 'Righteous', cursive;
+    background-color: black;
+
+}
+
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    background-color: black;
+    font-size: 21px;
+}
+
+#navbar li a:hover{
+    color: red;
+}
+
+#introSection{
+    background: center/cover no-repeat url("/static/dance.jpg");
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    padding-bottom: 40px;
+    font-family: 'Righteous', cursive;
+}
+#introSection div.small{
+    font-size: 28px;
+    padding : 5px;
+}
+
+
+
+#missionSection{
+    height: 300px;
+    width: 65%;
+    margin: auto;
+}
+#missionSection h2{
+    text-align: center;
+    /* padding-bottom: 1px; */
+    padding-top: 10px;
+    font-size: 32px;
+    font-family: 'Righteous', cursive;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 200px;
+    display: inline-block;
+    background-color: #e0e8ec;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: cursive;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img img{
+    height: 88px;
+    padding: 0 10px;
+    margin: 11px 2px;
+}
+.card-content{
+    padding: 0 12px;
+}
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsorsSection{
+    height: 205px;
+    background-color:rgb(232 232 184);;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-bottom: 23px;
+    font-size: 32px;
+    padding-top: 10px;
+    font-family: 'Righteous', cursive;
+}
+#sponsors{
+    height: 105px;
+    max-width: 1000px;
+    margin:  auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+    align-items: center;
+
+}
+#footer{
+    background-color:black;
+    height: 40px;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
